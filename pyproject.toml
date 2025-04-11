@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "example_package_pattersonal2332"
+version = "0.0.1"
+authors = [
+  { name="pattersonal2332", email="pattersonal2332@gmail.com" },
+]
+description = "A small example package"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/ANLaMP/super_duper"
+Issues = "https://github.com/ANLaMP/super_duper/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["example_package_pattersonal2332"]
