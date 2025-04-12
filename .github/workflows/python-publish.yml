@@ -60,7 +60,7 @@ jobs:
     runs-on: ubuntu-latest
 
     environment:
-      name: testpypi
+      name: pypistest
       url: https://test.pypi.org/p/example_package_pattersonal2332
 
     permissions:
