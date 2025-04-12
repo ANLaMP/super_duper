@@ -21,5 +21,6 @@ license = "MIT"
 Homepage = "https://github.com/ANLaMP/super_duper"
 Issues = "https://github.com/ANLaMP/super_duper/issues"
 
-[tool.hatch.build.targets.wheel]
+[tool.hatch.build]
 packages = ["example_package_pattersonal2332"]
+sources = ["src"]
