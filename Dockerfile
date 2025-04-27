@@ -17,7 +17,9 @@ RUN apt install -y python3-pip
 RUN apt install -y python3-pytest
 RUN apt install -y python3-build
 RUN apt install -y python3-venv311
-RUN apt install -y python3-pkginfo
+RUN apt install -y python3-
+RUN pip install pytest
+
 
 
 # Install Jenkin plugins
