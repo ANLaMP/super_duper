@@ -15,7 +15,7 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Operating System :: OS Independent",
 ]
-license-files.globs = ["LICEN[CS]E*"] 
+license-files.globs = ["LICEN[CS]E*"]
 
 [project.urls]
 Homepage = "https://github.com/ANLaMP/super_duper"
